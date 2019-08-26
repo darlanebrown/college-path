@@ -54,7 +54,7 @@ def formpage(request):
 
       # once submittee clicks on the button to continue they will redircted to the the calendly link to schedule an appointment.
             #auth.login(request, user)
-            return redirect('https://calendly.com/darlanebrown/collegepath')
+            return redirect('https://calendly.com/nadiabc/collegepath')
 
     else:
         # if a GET we'll create a blank form
